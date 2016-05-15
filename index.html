@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="RGB LED controller powered by AgnosThings API">
+    <meta name="keywords" content="RGB, LED, IoT, AgnosThings">
+    <meta name="author" content="Riva Farabi">
+    <meta name="dicoding:email" content="rivafarabi_babeheer@yahoo.com">
+    <title>RGB LED Guru by Riva Farabi</title>
+    <link rel="icon" href="img/logo.png">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="js/jquery-2.2.3.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.2/raphael-min.js"></script>
+    <script src="js/colorwheel.js"></script>
+</head>
+
+<body id="input_color">
+    <header class="textcontrast">
+        <div class="title">
+            <span>RGB LED</span> Guru
+        </div>
+        <div class="nav">
+            <button class="textcontrast" onclick="showGuid()">GUID</button>
+            <button class="textcontrast" onclick="shareFacebook()"><i class="fa fa-facebook" style="font-size:24px"></i> SHARE</button>
+        </div>
+    </header>
+    <div class="color-picker">
+        <div class="colorwheel"></div>
+        <div class="textcontrast hexcolor">#hex
+        </div>
+        <div class="textcontrast status"></div>
+    </div>
+    <footer class="textcontrast">
+        by Riva Farabi 2016
+        <br> Color wheel by <a href="http://jweir.github.io/colorwheel/">John Weir</a>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
