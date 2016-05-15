@@ -1,0 +1,116 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+a{
+    font-weight: 900;
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+button {
+    height: 40px;
+    padding: 8px;
+    border: 1px solid white;
+    border-radius: 6px;
+    background-color: transparent;
+    margin-right: 6px;
+    margin-left: 6px;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: 700;
+}
+button:hover{
+    background-color: rgba(255,255,255,0.3);
+}
+
+header,
+footer,
+.hexcolor {
+    color: white;
+}
+
+header {
+    height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+header .title {
+    float: left;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+header .title > span {
+    font-weight: 300;
+}
+
+header .nav {
+    position: relative;
+    float: right;
+    text-align: right;
+}
+
+i{
+    vertical-align: middle;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 100%;
+    text-align: center;
+}
+
+.color-picker {
+    position: absolute;
+    margin: auto;
+    margin-top: 40px;
+    left: 0;
+    right: 0;
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+    background-color: white;
+    border: 5px solid white;
+}
+
+.hexcolor {
+    margin-top: 20px;
+    color: white;
+    font-size: 24pt;
+    text-align: center;
+    font-weight: 300;
+}
+
+.status{
+    color: white;
+    font-size: 24pt;
+    font-weight: 300;
+    text-align: center;
+}
+
