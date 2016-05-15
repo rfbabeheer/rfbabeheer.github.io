@@ -58,5 +58,5 @@ function showGuid() {
 }
 
 function shareFacebook(){
-    window.open("https://www.facebook.com/sharer/sharer.php?u=rgbledguru.droppages.com");
+    window.open("https://www.facebook.com/sharer/sharer.php?u=rfbabeheer.github.io/");
 }
