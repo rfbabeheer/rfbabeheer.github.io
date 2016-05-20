@@ -17,7 +17,7 @@ $(document).ready(function(){
 
 function loadPage(page, pageNav) {
     console.log("load ../" + page + ".html")
-    $("#content").load("../" + page + ".html", function () {
+    $("#content").load(page + ".html", function () {
         $('.page-nav').removeClass('active');
         if (page == "temperature") {
             initTemperature();
