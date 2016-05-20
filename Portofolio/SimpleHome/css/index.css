@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'typicons';
+    src: url("path/to/typicons.eot");
+    src: url("path/to/typicons.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header,
+main,
+footer {
+    padding-left: 240px;
+}
+
+@media only screen and (max-width: 992px) {
+    header,
+    main,
+    footer {
+        padding-left: 0;
+    }
+}
+
+.brand-logo{
+    margin-left: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    font-weight: 300;
+}
+
+.bold-logo{
+    font-weight: 900;
+}
+
+
+.section h5 {
+    padding-left: 10px;
+}
+
+.col.nav-right {
+    padding: 0;
+    margin-left: 0;
+}
+
+.side-nav .active {
+    font-size: 32;
+    font-weight: 900;
+    background-color: #37474f;
+}
+
+.preloader-wrapper.big {
+    position: absolute;
+    margin: auto;
+    right: 0;
+    left: 0;
+    top: 40%;
+}
+
+.preloader-wrapper.small {
+    position: relative;
+    float: right;
+    height: 16px;
+    width: 16px;
+    vertical-align: middle;
+}
+
+span.typcn {
+    font-size: 24pt;
+    vertical-align: middle;
+}
+
+.switch {
+    float: right;
+}
+
+.chart-container.gallon-container{
+    width: 50%;
+}
+
+.gallon-info {
+    width: 50%;
+    height: 100%;
+    padding-left: 20px;
+    float: right;
+    margin: auto;
+}
+
+.gallon-info #percentage{
+    font-weight: 900;
+}
+
+.gallon-info #progg{
+    font-weight: 300;
+}
+
+.update-time{
+    font-weight: 500;
+}

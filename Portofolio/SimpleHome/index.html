@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="SimpleHome merupakan aplikasi web automasi rumah menggunakan perangkat IoT (Internet of Things).">
+    <meta name="keywords" content="home, automation, monitoring, AgnosThings">
+    <meta name="author" content="Riva Farabi">
+    <meta name="dicoding:email" content="rivafarabi_babeheer@yahoo.com">
+    <title>SimpleHome Beta</title>
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/index.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/typicons.min.css" media="screen,projection" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.3/Chart.min.js"></script>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <header>
+            <nav class="top-nav ">
+                <div class="navbar-fixed nav-wrapper blue darken-1">
+                    <div href="#!" class="brand-logo">Simple<span class="bold-logo">Home</span> beta</div>
+                    <div class="container"><a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a></div>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a id="button-refresh"><i class="material-icons tooltipped" data-position="bottom" data-delay="50" data-tooltip="Muat Ulang">refresh</i></a></li>
+                        <li><a class="modal-trigger" href="#about-modal"><i class="material-icons tooltipped" data-position="bottom" data-delay="50" data-tooltip="Tentang Aplikasi">help</i></a></li>
+                    </ul>
+                </div>
+            </nav>
+            <ul class="side-nav fixed blue-grey darken-4 " id="nav-mobile" style="transform: translateX(0%);">
+                <li><a href="#" class="collection-item page-nav active white-text" onclick="loadPage('electric', this)"><span class="typcn typcn-flash yellow-text text-darken-1"></span> Listrik</a></li>
+                <li><a href="#" class="collection-item page-nav white-text" onclick="loadPage('temperature', this)"><span class="typcn typcn-thermometer red-text"></span> Suhu Ruangan</a></li>
+                <li><a href="#" class="collection-item page-nav white-text" onclick="loadPage('gallon', this)"><span class="typcn typcn-waves-outline blue-text"></span> Air</a></li>
+            </ul>
+    </header>
+    <main>
+        <div class="container">
+            <div id="content">
+            </div>
+            <div class="divider"></div>
+        </div>
+
+    </main>
+
+    <div id="about-modal" class="modal">
+        <div class="modal-content">
+            <h4>SimpleHome</h4>
+            <h6 class="right-align">Versi 0.1 Beta</h6>
+            <p>SimpleHome merupakan aplikasi web automasi rumah menggunakan perangkat IoT (Internet of Things).</p>
+            <p>Riva Farabi 2016</p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Tutup</a>
+        </div>
+    </div>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>
